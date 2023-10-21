@@ -26,13 +26,14 @@ body {
   display: inline-block;
   margin-left: 8px;
   font-family: fantasy;
-  font-weight: bolder;
+  font-weight: bold;
 }
 span {
   color: blue;
 }
 .log {
-  color: red;
+  color: whitesmoke;
+  font-size: 25px;
 }
 nav {
   background-color: transparent;

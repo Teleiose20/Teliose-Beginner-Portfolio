@@ -17,14 +17,16 @@ body {
   height: 400px;
   background-color: var(--BG-Hero-container);
   margin-top: 0px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hero-text {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: inline-block;
   padding-top: 30px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   color: white;
 }
 .hero-image {
