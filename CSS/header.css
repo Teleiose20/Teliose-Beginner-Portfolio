@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 .header-start {
-  background-color: var(--BG-header-Color);
+  background-color: var(--BG-Hero-container);
   box-shadow: 0 4 8 0 rgb(red, green, blue);
   position: sticky;
   top: 0;

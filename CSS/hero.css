@@ -15,10 +15,13 @@ body {
 .hero-container {
   width: 100%;
   height: 400px;
-  background-color: var(--BG-Hero-container);
-  margin-top: 0px;
+  background-color: var(--BG-header-Color);
+  margin: 0px 0px 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  /* align-items: center; */
+  padding-left: 10px;
+  gap: -50px 0px;
 }
 
 .hero-text {
@@ -28,6 +31,12 @@ body {
   padding-top: 30px;
   /* margin-left: 20px; */
   color: white;
+}
+.hero-text > p {
+  width: 650px;
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
 }
 .hero-image {
   display: inline-block;
